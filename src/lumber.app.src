@@ -1,0 +1,16 @@
+{application, lumber,
+ [{description, "An thin lager wrapper for LFE"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    lager
+   ]},
+  {env, []},
+  {modules, [lumber]},
+
+  {contributors, ["Ricardo Lanziano"]},
+  {licenses, ["Apache-2"]},
+  {links, [{"github", "https://github.com/arpunk/lumber"}]}
+ ]}.
