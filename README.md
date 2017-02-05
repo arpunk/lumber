@@ -27,3 +27,9 @@ $ rebar3 compile
 ```
 $ rebar3 eunit
 ```
+
+## License
+
+Apache Version 2 License
+
+Copyright © 2017, Ricardo Lanziano
